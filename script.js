@@ -35,6 +35,39 @@ form.addEventListener("submit", function(event) {
 
   // Call the addBookToLibrary function with the form data as arguments
   addBookToLibrary(title, author, pages, read);
-  console.log(myLibrary);
 });
 
+function displayBooks() {
+  const booksContainer = document.getElementById("books");
+  booksContainer.innerHTML = ""; // clear the existing content
+
+  myLibrary.forEach(book => {
+    const bookDiv = document.createElement("div");
+
+    const titleHeading = document.createElement("h2");
+    titleHeading.textContent = "Title: " + book.title;
+    bookDiv.appendChild(titleHeading);
+
+    const authorPara = document.createElement("p");
+    authorPara.textContent = "Author: " + book.author;
+    bookDiv.appendChild(authorPara);
+
+    const pagesPara = document.createElement("p");
+    pagesPara.textContent = "Pages: " + book.pages;
+    bookDiv.appendChild(pagesPara);
+
+    const readPara = document.createElement("p");
+    readPara.textContent = "Read: " + book.read;
+    bookDiv.appendChild(readPara);
+
+    booksContainer.appendChild(bookDiv);
+  });
+}
+
+// Call the displayBooks function after adding a book to the library
+form.addEventListener("submit", function(event) {
+  // ...
+  addBookToLibrary(title, author, pages, read);
+  console.log(myLibrary);
+  displayBooks();
+});
