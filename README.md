@@ -1,5 +1,8 @@
 # library
 
+13/04/2023
+Added a function that displays the books added to the library. It's adding two books for each submission, though. I am assuming that it's calling the function twice, once when there is no information and a second time when there is information in the input fields. I should use this as an opportunity to practice the debugging method that is built into the browser. I need to step through the code to see when it is doing each thing.
+
 09/04/2023
 Put in a form into the site for the user to input the book information. ChatGPT suggested it might not be the best way but it seems the easiest. I'm not sure why it wouldn't be the best way, I asked the bot again and it gave answers made the form element seem fine to use.
 
