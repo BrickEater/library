@@ -1,5 +1,8 @@
 # library
 
+15/04/2023
+It turns out that there are further instructions for this project. I think, though, I'm going to start "finishing" a project and then forking the git branch to get practice with that. I know it's a skill I'll need to have and I'm not familiar with the process.
+
 14/04/2023
 So, project is done. The main thing I have to take away from this is if I'm going to use ChatGPT I need to be diligent in understanding what the bot gives me. Here's the things I took away from this project:
 - I need to make variables that target elements in the DOM
