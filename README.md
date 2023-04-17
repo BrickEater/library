@@ -1,5 +1,8 @@
 # library
 
+17/04/2023
+Started from the beginning with a better understanding on how I should approach this. I'm going to leave the style to the end and focus on getting all the functionality done first. I'm also going to avoid using the AI as much as possible.
+
 15/04/2023
 It turns out that there are further instructions for this project. I think, though, I'm going to start "finishing" a project and then forking the git branch to get practice with that. I know it's a skill I'll need to have and I'm not familiar with the process.
 
