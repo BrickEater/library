@@ -1,5 +1,8 @@
 # library
 
+18/04/2023
+Added a modal window where I will put the form to add the book. I was planning on avoiding using ChatGPT a lot and pushing my memory to do this website but I asked it a question and it suggested that people often use modal windows to do what I was planning. I'll likely use the bot more to learn about this more.
+
 17/04/2023
 Started from the beginning with a better understanding on how I should approach this. I'm going to leave the style to the end and focus on getting all the functionality done first. I'm also going to avoid using the AI as much as possible.
 
