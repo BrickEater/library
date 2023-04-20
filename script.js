@@ -18,3 +18,10 @@ button.addEventListener("click", function() {
 closeButton.addEventListener("click", function() {
   modal.style.display = "none";
 });
+
+const addBook = document.getElementById('new-book-form');
+
+addBook.addEventListener('submit', function(e) {
+  e.preventDefault();
+  console.log('Form submitted');
+});
