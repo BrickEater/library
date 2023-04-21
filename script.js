@@ -1,10 +1,15 @@
-/* const addBook = document.getElementById('add-book');
+function Book(title, author, pages, read) {
+  this.title = title;
+  this.author = author;
+  this.pages = pages;
+  this.read = read;
+};
 
-addBook.addEventListener('click', function() {}); */
+
 
 // Get references to the modal and button elements
 const modal = document.getElementById("modal-window");
-const button = document.getElementById("open-modal-btn");
+const button = document.getElementById("add-book-btn");
 
 // Get the close button element
 const closeButton = document.getElementsByClassName("close")[0];

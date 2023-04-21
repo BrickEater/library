@@ -1,5 +1,8 @@
 # library
 
+21/04/2023
+Very unmotivated but I'm keeping at it. I keep forgetting to add to this dev journal but I have been trying to code everyday. I made the constructor so the next step is to attach a function to the submit button in the modal that takes the information from the fields and puts it into the constructor.
+
 18/04/2023
 Added a modal window where I will put the form to add the book. I was planning on avoiding using ChatGPT a lot and pushing my memory to do this website but I asked it a question and it suggested that people often use modal windows to do what I was planning. I'll likely use the bot more to learn about this more.
 
