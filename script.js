@@ -5,6 +5,14 @@ function Book(title, author, pages, read) {
   this.read = read;
 };
 
+function createNewBook(e) {
+  e.preventDefault();
+  const title = document.getElementById('title').value;
+  const author = document.getElementById('author').value;
+  const pages = document.getElementById('pages').value;
+  const read = document.getElementById('read').value;
+  const newBook = new Book(title, author, pages, read);
+}
 
 
 // Get references to the modal and button elements
@@ -24,9 +32,3 @@ closeButton.addEventListener("click", function() {
   modal.style.display = "none";
 });
 
-const addBook = document.getElementById('new-book-form');
-
-addBook.addEventListener('submit', function(e) {
-  e.preventDefault();
-  console.log('Form submitted');
-});
