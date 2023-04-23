@@ -5,6 +5,8 @@ function Book(title, author, pages, read) {
   this.read = read;
 };
 
+const myLibrary = [];
+
 function createNewBook(e) {
   e.preventDefault();
   const title = document.getElementById('title').value;
@@ -12,8 +14,14 @@ function createNewBook(e) {
   const pages = document.getElementById('pages').value;
   const read = document.getElementById('read').value;
   const newBook = new Book(title, author, pages, read);
+  myLibrary.push(newBook);
+  console.log(myLibrary);
 }
 
+function init() {
+  const form = document.getElementById('new-book-form');
+  form.addEventListener('submit', createNewBook);
+}
 
 // Get references to the modal and button elements
 const modal = document.getElementById("modal-window");

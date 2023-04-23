@@ -1,5 +1,8 @@
 # library
 
+23/04/2023
+I successfully put in a function that uses the new book function when the forms submit button is pressed. Because I put it below the function I needed to make an init function and go into the html to have it initialized on load (init = initialized). This seems to be for things to avoid sequencing and my website would get stuck in a function so it wouldn't recognize other code below the function. I hope I'm understanding the issue. It works now so next step is to display the books added.
+
 21/04/2023
 Very unmotivated but I'm keeping at it. I keep forgetting to add to this dev journal but I have been trying to code everyday. I made the constructor so the next step is to attach a function to the submit button in the modal that takes the information from the fields and puts it into the constructor.
 
