@@ -7,6 +7,18 @@ function Book(title, author, pages, read) {
 
 const myLibrary = [];
 
+function displayBook(book) {
+  const bookContainer = document.createElement('div');
+  bookContainer.innerHTML = `
+  Title: ${book.title}<br>
+  Author: ${book.author}<br>
+  Pages: ${book.pages}<br>
+  Read: ${book.read} ? 'Yes' : 'No'
+  `;
+  const libraryContainer = document.getElementById('library-container');
+  libraryContainer.appendChild(bookContainer);
+}
+
 function createNewBook(e) {
   e.preventDefault();
   const title = document.getElementById('title').value;
@@ -16,7 +28,9 @@ function createNewBook(e) {
   const newBook = new Book(title, author, pages, read);
   myLibrary.push(newBook);
   console.log(myLibrary);
+  displayBook(newBook);
 }
+
 
 function init() {
   const form = document.getElementById('new-book-form');

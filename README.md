@@ -1,5 +1,14 @@
 # library
 
+26/04/2023
+Displaying the books on the page now. I need to change the function to make a table for the data. I think that will look better. I'm not sure if each book will need it's own div or if the table will be enough, though. Besides that, I always need to apply flexbox to the div holding the books.
+Some things that are kinda clicking:
+- When manipulating the DOM you need to target specific elements with document.getElementById
+- You need to define a variable with the element
+- To change the DOM you need to use document.createElement
+- After creating an element you can use innerHTML to add text.
+There are a lot of things to keep in mind but the general idea is coming together.
+
 23/04/2023
 I successfully put in a function that uses the new book function when the forms submit button is pressed. Because I put it below the function I needed to make an init function and go into the html to have it initialized on load (init = initialized). This seems to be for things to avoid sequencing and my website would get stuck in a function so it wouldn't recognize other code below the function. I hope I'm understanding the issue. It works now so next step is to display the books added.
 
