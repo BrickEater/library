@@ -1,5 +1,11 @@
 # library
 
+3/05/2023
+I was told to make the book tile in react so I tried that today. I don't know what I'm doing so I'm a bit lost. I will keep at it until I get it but I feel like I should start this whole project over and make it all in react. That is the end goal anyway.
+
+27/04/2023
+I now have each book displayed in a table. I think, though, that I want to make a standardized "book card" so that it calls the book card function and fills it with information instead of rendering a table each time. It's definitely coming along but I'm leaning on the bot too much. I am not familiarizing myself with the functions and methods that are being used in my code which only leaves me vulnerable to future mistakes because I'm not investigating and implementing these tools. I worry I won't understand my own work and have a swiss cheese knowledge base if I keep doing this.
+
 26/04/2023
 Displaying the books on the page now. I need to change the function to make a table for the data. I think that will look better. I'm not sure if each book will need it's own div or if the table will be enough, though. Besides that, I always need to apply flexbox to the div holding the books.
 Some things that are kinda clicking:

@@ -8,6 +8,42 @@ function Book(title, author, pages, read) {
 const myLibrary = [];
 
 function displayBook(book) {
+  const libraryContainer = document.getElementById('library-container');
+
+  // Create a new table
+  const table = document.createElement('table');
+  const tbody = document.createElement('tbody');
+
+  // Create table rows for each property and append them to the table body
+  const properties = [
+    { label: 'Title', value: book.title },
+    { label: 'Author', value: book.author },
+    { label: 'Pages', value: book.pages },
+    { label: 'Read', value: book.read ? 'Yes' : 'No' },
+  ];
+
+  properties.forEach(property => {
+    const tableRow = document.createElement('tr');
+
+    const labelCell = document.createElement('td');
+    labelCell.innerText = property.label;
+    tableRow.appendChild(labelCell);
+
+    const valueCell = document.createElement('td');
+    valueCell.innerText = property.value;
+    tableRow.appendChild(valueCell);
+
+    tbody.appendChild(tableRow);
+  });
+
+  table.appendChild(tbody);
+
+  // Append the table to the library container
+  libraryContainer.appendChild(table);
+}
+
+
+/* function displayBook(book) {
   const bookContainer = document.createElement('div');
   bookContainer.innerHTML = `
   Title: ${book.title}<br>
@@ -17,7 +53,7 @@ function displayBook(book) {
   `;
   const libraryContainer = document.getElementById('library-container');
   libraryContainer.appendChild(bookContainer);
-}
+} */
 
 function createNewBook(e) {
   e.preventDefault();
