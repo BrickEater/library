@@ -1,5 +1,8 @@
 # library
 
+5/05/2023
+Started a new branch to make this project in react. Tomorrow I'll start the react stuff but today I only made the new branch and merged my readme file.
+
 3/05/2023
 I was told to make the book tile in react so I tried that today. I don't know what I'm doing so I'm a bit lost. I will keep at it until I get it but I feel like I should start this whole project over and make it all in react. That is the end goal anyway.
 
